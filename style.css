@@ -1,0 +1,36 @@
+#canvas{
+    position: absolute; 
+    left: calc(57vw - 37.5vw);
+    top: calc(50vh - 22.5vw);
+}
+#chat-box{
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 13vw;
+    height: 100vh;
+}
+#text-box{
+    position: absolute;
+    resize: none;
+    bottom: 1%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+}
+#text-area{
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    width: 80%;
+    height: 80%;
+    overflow-y: hidden;
+    overflow-wrap: break-word;
+}
+.one{
+    color: blue;
+}
+.two{
+    color: red;
+}
